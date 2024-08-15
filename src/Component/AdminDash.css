@@ -1,0 +1,129 @@
+.admin-dashboard {
+    display: flex;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.sidebars {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebars h2 {
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.search-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.delete-button, .edit-button, .save-button, .cancel-button {
+    padding: 6px 12px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.edit-button {
+    background-color: #3498db;
+}
+
+.save-button {
+    background-color: #2ecc71;
+}
+
+.cancel-button {
+    background-color: #e67e22;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.edit-button:hover {
+    background-color: #2980b9;
+}
+
+.save-button:hover {
+    background-color: #27ae60;
+}
+
+.cancel-button:hover {
+    background-color: #d35400;
+}

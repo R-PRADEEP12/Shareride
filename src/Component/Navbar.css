@@ -1,0 +1,97 @@
+.hom_2 {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 60px;
+}
+
+body.scrolled .hom_2 {
+  top: -50px;
+}
+
+.hom_3 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.hom_4 {
+  border-radius: 10px;
+  height: 60px;
+  width: 80px;
+}
+
+.hom_6, .hom_8 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.hom_6 {
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.hom_8 {
+  padding-right: 20px;
+}
+
+.hom_7 {
+  background-color: transparent;
+  color: #2e2929;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 3ms ease, color 3ms ease;
+  position: relative;
+  text-decoration: none;
+}
+
+.hom_7:hover {
+  background-color: rgba(45, 45, 53, 0.1);
+  color: rgb(42, 42, 46);
+  text-decoration: none;
+}
+
+.hom_7::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(25, 25, 27);
+  visibility: hidden;
+  transition: width 0.3s ease-in-out;
+}
+
+.hom_7:hover::after {
+  visibility: visible;
+  width: 100%;
+}
+
+.hom_7.active {
+  color: rgb(0, 0, 0);
+}
+
+.hom_7.active::after {
+  visibility: visible;
+  width: 100%;
+}

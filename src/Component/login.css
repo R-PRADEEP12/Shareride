@@ -1,0 +1,96 @@
+.log_1 {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8; /* Default background color similar to sign-up */
+}
+
+.log_2 {
+  display: flex;
+  height: calc(100vh - 60px); /* Adjust height to account for the navbar */
+  align-items: center;
+  justify-content: center; /* Center the login form horizontally */
+  position: relative;
+}
+
+.log_3 {
+  background-color: #ffffff; /* Form background color similar to sign-up */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.log_4 {
+  text-align: left;
+}
+
+.log_5 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  padding-left: 150px;
+  color: #333; /* Heading color */
+}
+
+.log_6 {
+  margin-bottom: 20px;
+  color: #777; /* Text color */
+}
+
+.log_7 {
+  display: flex;
+  flex-direction: column;
+}
+
+.log_8 {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555; /* Label color */
+}
+
+.log_9 {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background: #f9f9f9; /* Input background color */
+  color: #333; /* Input text color */
+}
+
+.log_10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.log_11 {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4b7bec;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.log_11:hover {
+  background-color: #3a5fcd;
+}
+
+.log_12 {
+  background-color: #ffa824;
+}
+
+.log_13 {
+  color: #4b7bec;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+.log_13:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,87 @@
+.riho_1 {
+    display: flex;
+    align-items: center;
+    background-color: white; 
+    padding: 40px 20px;
+    margin-top: 100px; 
+    height: 450px;
+  }
+  
+  .riho_2 {
+    flex: 1;
+    text-align: right;
+    margin-left: 80px; 
+    height: 450px;
+  }
+  
+  .riho_3 {
+    height: 380px;
+    width: 570px;
+    border-radius: 15px;
+  }
+  
+  .riho_4 {
+    flex: 1;
+    text-align: left; /* Align text and input section to the left */
+    padding-left: 70px; /* Added padding to the left of the content */
+    margin-bottom: 130px;
+  }
+  
+  .riho_5 {
+    font-size: 60px;
+    color: #000000;
+    font-weight: 900;
+    margin-bottom: 20px; /* Adjusted to reduce space */
+  }
+  
+  .riho_6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+  }
+  
+  .riho_9 {
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px; /* Added spacing above the paragraph */
+  }
+  .riho_10 {
+    background-color: #e9eef3;
+  }
+  
+  .riho_11 {
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  .riho_12 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px; /* Added to space out the content */
+    padding-top: 30px;
+  }
+  
+  .riho_13 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .riho_14 {
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  .riho_16 {
+    font-weight: bold;
+    font-size: 1.5em; /* Adjust size as needed */
+    margin: 0 0 10px 0; /* Adjust spacing as needed */
+    color: #000000;
+  }
+  
+  .riho_17 {
+    color: black;
+    margin: 0;
+  }
+  

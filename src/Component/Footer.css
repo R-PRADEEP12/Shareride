@@ -1,0 +1,92 @@
+.hom_80 {
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    justify-content: space-between;
+  }
+  
+  .hom_81 {
+    flex: 1 1 250px;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .hom_82 {
+    width: 120px; /* Adjust as needed */
+    margin-bottom: 0; /* Remove margin to eliminate space below the heading */
+  }
+  
+  .hom_83 {
+    font-size: 16px;
+    color: #666; /* Lighter color for the paragraph */
+    margin-bottom: 20px;
+  }
+  
+  .hom_84 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .hom_84 li {
+    display: inline;
+  }
+  
+  .hom_84 a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .hom_85, .hom_88, .hom_89 {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .hom_86 {
+    font-size: 18px;
+    font-weight: bold; /* Make the heading bold */
+    color: #000; /* Heading in black color */
+    margin-bottom: 10px;
+  }
+  
+  .hom_87 {
+    font-size: 14px;
+    color: #666; /* Lighter color for the paragraph */
+    margin: 5px 0;
+  }
+  
+  .hom_90 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hom_91 {
+    color: #666; /* Lighter color for links */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .hom_91:hover {
+    text-decoration: underline;
+  }
+  
+  .hom_93 {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hom_94 {
+    font-size: 14px;
+    color: #666; /* Lighter color for the copyright text */
+  }
+  

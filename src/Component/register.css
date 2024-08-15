@@ -1,0 +1,98 @@
+.reg_2 {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0;
+}
+
+.register-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.form-container {
+  text-align: left;
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  /* color: #fff; */
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4b7bec;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a5fcd;
+}
+
+button.google-signup {
+  background-color: #d37013;
+}
+
+a {
+  color: #4b7bec;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.reg_1 {
+  padding-left: 30px;
+}

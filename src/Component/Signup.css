@@ -1,0 +1,150 @@
+.sign_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.sign_2 {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  width: 60%;
+  max-width: 1000px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sign_3 {
+  flex: 1;
+}
+
+.sign_4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px 0 0 12px;
+}
+
+.sign_5 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign_6 {
+  text-align: left;
+}
+
+.sign_7 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.sign_8 {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  width: 100%;
+  max-width: 500px; /* Ensure the form width is consistent */
+  margin: 0 auto; /* Center the form */
+}
+
+.sign_8 label {
+  display: block;
+  margin-bottom: 4px; /* Reduced margin for labels */
+  font-weight: bold;
+  font-size: 14px; /* Reduced font size */
+}
+
+.sign_8 input {
+  width: 90%;
+  padding: 8px; /* Reduced padding */
+  border: 1px solid #1d1c1c;
+  border-radius: 8px;
+  color: #1d1c1c;
+  margin-bottom: 8px; /* Reduced margin between inputs */
+  font-size: 14px; /* Reduced font size */
+}
+
+.sign_9,
+.sign_11,
+.sign_13,
+.sign_15 {
+  padding: 8px; /* Reduced padding for buttons */
+  border: none;
+  border-radius: 8px;
+  background-color: #4b7bec;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Adjusted margin for spacing */
+  max-width: 120px; /* Fixed width for smaller button */
+  align-self: flex-end; /* Align to the right */
+}
+
+.sign_9:hover,
+.sign_11:hover,
+.sign_13:hover,
+.sign_15:hover {
+  background-color: #3a5fcd;
+}
+
+.sign_17 {
+  padding: 12px; /* Reduced padding */
+  border: none;
+  border-radius: 8px;
+  background-color: #4b7bec;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.sign_17:hover {
+  background-color: #3a5fcd;
+}
+
+.sign_18 {
+  margin-top: 10px; /* Reduced margin for spacing */
+  background-color: #d37013;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px; /* Reduced padding */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.sign_18:hover {
+  background-color: #b65e10;
+}
+
+.sign_19 {
+  color: #4b7bec;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+.sign_19:hover {
+  text-decoration: underline;
+}
+
+.sign_10,
+.sign_12,
+.sign_14,
+.sign_16 {
+  margin-left: 6px; /* Ensure consistency in icon spacing */
+}

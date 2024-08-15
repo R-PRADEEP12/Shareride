@@ -1,0 +1,141 @@
+.rimho_1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.rimho_2 {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rimho_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.rimho_4 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.rimho_5 {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.rimho_6 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.rimho_7 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rimho_7 ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.rimho_8 {
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.rimho_8 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rimho_8 a:hover {
+    color: #ff8000;
+}
+
+.rimho_9 {
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.rimho_10 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff8000;
+}
+
+.rimho_11 {
+    background: url('https://media.istockphoto.com/id/1365370397/photo/november-20-2021-uae-dubai-tourist-with-a-suitcase-stops-a-taxi-in-dubai.jpg?s=612x612&w=0&k=20&c=klqBcCZ9AEPWIHEiPsbTvdRi7FhPCp7X-y8Mzz3ILWo=') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.rimho_12 {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.rimho_13 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+    color: #ff8000;
+}
+
+.rimho_14 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.rimho_15 {
+    margin-top: 30px;
+}
+
+.rimho_16 {
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}

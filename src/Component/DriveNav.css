@@ -1,0 +1,124 @@
+.Rina_1 {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 60px;
+  }
+  
+  body.scrolled .Rina_1 {
+    top: -50px;
+  }
+  
+  .Rina_2 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .Rina_3 {
+    border-radius: 10px;
+    height: 60px;
+    width: 80px;
+  }
+  
+  .Rina_4, .Rina_6 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .Rina_4 {
+    margin-right: auto;
+    padding-left: 20px;
+  }
+  
+  .Rina_6 {
+    padding-right: 20px;
+  }
+  
+  .Rina_5 {
+    background-color: transparent;
+    color: #2e2929;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 9px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .Rina_5:hover {
+    background-color: rgba(45, 45, 53, 0.1);
+    color: rgb(42, 42, 46);
+    text-decoration: none;
+  }
+  
+  .Rina_5::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(25, 25, 27);
+    visibility: hidden;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .Rina_5:hover::after {
+    visibility: visible;
+    width: 100%;
+  }
+  
+  .Rina_5.active {
+    color: rgb(0, 0, 0);
+  }
+  
+  .Rina_5.active::after {
+    visibility: visible;
+    width: 100%;
+  }
+  
+  .Rina_7 {
+    position: relative;
+  }
+  
+  .Rina_8 {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .Rina_8 .Rina_5 {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+  }
+  
+  .Rina_8 .Rina_5:hover {
+    background-color: #f0f0f0;
+  }
+  
